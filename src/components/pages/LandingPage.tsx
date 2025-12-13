@@ -1,9 +1,10 @@
 import { MainLayout } from "@/layouts/MainLayout";
+import { SectionServices } from "../landing/SectionServices";
 
 export const LandingPage = () => {
   return (
     <MainLayout>
-      <div className="border hidden"></div>
+      <SectionServices />
     </MainLayout>
   );
 };
