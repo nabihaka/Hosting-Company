@@ -3,47 +3,47 @@ import Triangle from "@/assets/svg/triangle.svg";
 
 export const SectionServices = () => {
   return (
-    <section className="mt-24 mb-19.75 px-28">
+    <section className="px-10 mt-24 mb-19.75 xl:px-28">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex flex-col gap-1 mb-6.5 w-fit">
             <div className="flex items-center gap-6">
-              <p className="font-semibold text-base text-(--color-primary)">
+              <p className="font-semibold text-sm xl:text-base text-(--color-primary)">
                 Hosting
               </p>
-              <p className="font-semibold text-base">Domain</p>
-              <p className="font-semibold text-base">SEO</p>
-              <p className="font-semibold text-base">Email</p>
+              <p className="font-semibold text-sm xl:text-base">Domain</p>
+              <p className="font-semibold text-sm xl:text-base">SEO</p>
+              <p className="font-semibold text-sm xl:text-base">Email</p>
             </div>
             <div className="relative mt-1 mx-1 h-[1.5px] bg-(--color-e5e5e5) rounded-full">
-              <div className="absolute -left-1 px-1.5 w-16">
+              <div className="absolute -left-1 px-1.5 w-14 xl:w-16">
                 <hr className="border border-(--color-primary) rounded-full" />
               </div>
             </div>
           </div>
-          <h1 className="mb-8.5 max-w-150 font-bold text-[64px] text-(--color-2e2e2e) leading-[77.5px]">
+          <h1 className="mb-8.5 max-w-150 font-bold text-[42px] xl:text-[64px] text-(--color-2e2e2e) leading-13.5 xl:leading-[77.5px]">
             Premium Web Hosting for Your Website
           </h1>
-          <p className="mb-15 max-w-md font-inter font-normal text-base text-(--color-808080) leading-7 tracking-[0.05em]">
+          <p className="mb-15 max-w-md font-inter font-normal text-sm xl:text-base text-(--color-808080) leading-7 tracking-[0.05em]">
             Blazing fast web hosting for individuals and businesses of all sizes
             backed by 24x7x365 Support.
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center justify-between xl:justify-start xl:gap-6">
             <button
               type="button"
-              className="py-3 px-4 font-normal text-sm text-white leading-6 bg-(--color-primary) rounded-lg cursor-pointer shadow-[0_0_64px_0_rgba(176,0,0,0.3)] transition ease-in-out hover:bg-red-800 active:bg-red-900 focus:outline-none"
+              className="py-3 px-4 font-normal text-xs xl:text-sm text-white leading-6 bg-(--color-primary) rounded-lg cursor-pointer shadow-[0_0_64px_0_rgba(176,0,0,0.3)] transition ease-in-out hover:bg-red-800 active:bg-red-900 focus:outline-none"
             >
               Create an Account
             </button>
             <button
               type="button"
-              className="py-3 px-4 font-normal text-sm text-black leading-6 bg-white border border-black rounded-lg cursor-pointer transition duration-200 ease-in-out hover:bg-black hover:text-white focus:outline-none"
+              className="py-3 px-4 font-normal text-xs xl:text-sm text-black leading-6 bg-white border border-black rounded-lg cursor-pointer transition duration-200 ease-in-out hover:bg-black hover:text-white active:bg-black active:text-white focus:outline-none"
             >
               Choose your plan
             </button>
           </div>
         </div>
-        <div className="relative px-6.25">
+        <div className="relative hidden px-6.25 xl:block">
           <img src={HeroImage.src} alt="Hero Image" className="h-126" />
           <img
             src={Triangle.src}
