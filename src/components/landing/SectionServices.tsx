@@ -3,7 +3,7 @@ import Triangle from "@/assets/svg/triangle.svg";
 
 export const SectionServices = () => {
   return (
-    <section className="hidden mt-24 mb-19.75 px-28">
+    <section className="mt-24 mb-19.75 px-28">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex flex-col gap-1 mb-6.5 w-fit">
